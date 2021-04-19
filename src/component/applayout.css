@@ -1,0 +1,31 @@
+.appBox {
+  margin: 3vh;
+}
+.headFlex {
+  display: flex;
+  justify-content: space-between;
+}
+.square {
+  height: 5vh;
+  width: 5vw;
+}
+.companyName {
+  margin-left: 1vw;
+}
+.informationFlex {
+  display: flex;
+}
+.information {
+  margin-left: 20px;
+}
+
+.unicode {
+  color: rgb(150, 150, 150);
+  cursor: pointer;
+}
+
+.gotoBtn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}

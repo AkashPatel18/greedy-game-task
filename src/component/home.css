@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Noto Sans JP", sans-serif; */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+}
+
+.homeGrid {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mainImage {
+  grid-row-start: 1;
+  background-color: rgb(132, 65, 240);
+  color: white;
+}
+
+.mainImageHeading {
+  margin-left: 2rem;
+}
+
+.asset1 {
+  height: 20vh;
+  width: 30vw;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.bottomDescription {
+  grid-row-start: 2;
+  background-color: rgb(86, 30, 175);
+  color: white;
+  display: grid;
+}
+
+.bottomDescriptionHeading {
+  padding-left: 3rem;
+}
+
+.apiData {
+  grid-row-start: 1;
+  grid-row-end: -1;
+}
+
+.iconGrid {
+  display: grid;
+  grid-row-gap: 4vh;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem;
+  margin-top: 1vh;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+}
